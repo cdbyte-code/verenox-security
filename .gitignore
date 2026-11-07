@@ -1,0 +1,25 @@
+# --- Secrets & credentials (never commit) ---
+*.pem
+*.key
+*.ppk
+credentials
+.aws/
+*.tfvars
+
+# --- Terraform state (can contain secrets in plaintext) ---
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# --- Packet captures (large, and not mine to redistribute) ---
+*.pcap
+*.pcapng
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- OS noise ---
+Thumbs.db
+.DS_Store

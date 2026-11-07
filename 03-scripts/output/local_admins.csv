@@ -1,0 +1,4 @@
+"Name","PrincipalSource","ObjectClass"
+"DESKTOP-45T2SF6\Administrator","Local","User"
+"DESKTOP-45T2SF6\labadmin","Local","User"
+"VERENOX\Domain Admins","ActiveDirectory","Group"
